@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+:root {
+  /* Fondo general de la app */
+  --bg-app: #f4f7fc;
+  --bg-card: #ffffff;
+  
+  /* Color principal (Botones, íconos activos, encabezados) */
+  --primary: #5c7cfa;
+  --primary-hover: #4c6ef5;
+  
+  /* Color suave/lavado (Para campos de texto, badges, fondos secundarios) */
+  --primary-light: #edf2ff;
+  --primary-light-hover: #dbe4ff;
+
+  /* Texto y bordes */
+  --text-main: #2b2c34;
+  --text-muted: #8c92a4;
+  --border-color: #e6e9f0;
+
+  /* Sombra suave para las tarjetas y botones */
+  --shadow-soft: 0 10px 25px -5px rgba(92, 124, 250, 0.15);
+  --radius-main: 16px;
+  --radius-btn: 24px;
+
+  /*Tipo grafia*/
+  --text-tipografia: 'Plus Jakarta Sans', sans-serif;
+}

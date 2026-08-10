@@ -1,0 +1,29 @@
+<?php
+require 'app.php';
+
+function incluirTemplate(string $nombre, bool $inicio = false)
+{
+    include TEMPLATES_URL . "/{$nombre}.php";
+}
+
+function debugear($dato)
+{
+    echo '<pre>';
+    var_dump($dato);
+    echo '</pre>';
+    exit;
+}
+
+function estaAutenticado() : bool{
+    session_start();
+
+    $auth = $_SESSION['login'];
+
+    if($auth){
+        return true;
+    }
+    return false;
+}
+
+
+?>

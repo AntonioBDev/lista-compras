@@ -1,0 +1,7 @@
+@import "./base/normalize.css";
+@import "./base/variables.css";
+
+@import "./base/globales.css";
+@import "./layout/header.css";
+
+@import "./base/botones.css";
