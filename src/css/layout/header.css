@@ -1,4 +1,7 @@
 header{
+    h1{
+        font-weight: 800;
+    }
     background-color: var(--primary);
     padding: 1rem 0;
     .barra{
@@ -17,14 +20,17 @@ header{
         gap:2rem;
         i{
             font-size: 5rem;
-            color: var(--bg-app);
+            color: var(--primary-light);
         }
         p{
             margin: 0;
         }
     }
     p{
-        color: var(--text-main);
+        color: var(--primary-light);
+    }
+    .fecha{
+        font-size: 1.2rem;
     }
 }
 
@@ -34,5 +40,9 @@ nav{
     gap: 2rem;
     a{
         color: var(--text-main);
+        i{
+            font-size: 2rem;
+            color: var(--primary-light);
+        }
     }
 }

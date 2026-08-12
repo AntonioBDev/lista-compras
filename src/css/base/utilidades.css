@@ -1,0 +1,11 @@
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.no-margin{
+    margin: 0;
+}
+
+.w-100{
+    width: 100%;
+}

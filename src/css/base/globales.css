@@ -8,6 +8,7 @@ html {
 body {
     font-family: var(--text-tipografia);
     color: var(--text-main);
+    background-color: var(--bg-app);
     font-size: 1.6rem;
     line-height: 1.8;
     display: flex;
@@ -46,10 +47,10 @@ h1 {
     font-size: 3.8rem;
 }
 h2 {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
 }
 h3 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 h4 {
     font-size: 2.6rem;

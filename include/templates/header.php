@@ -10,7 +10,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -26,14 +26,13 @@
             <section class="perfil">
                 <div class="name-perfil">
                     <i class="fa-solid fa-circle-user"></i>
-                    <p>"Hola, Usuario"</p>
+                    <p>Jose</p>
                 </div>
-                <p><?php echo $formateador->format($fecha)?></p>
+                <p class="fecha"><?php echo $formateador->format($fecha)?></p>
             </section>
             <nav>
                 <a href="#"><i class="fa-solid fa-circle-plus"></i></a>
                 <a href="#"><i class="fa-solid fa-gear"></i></a>
             </nav>
         </div>
-        <h2>Dashboard</h2>
     </header>

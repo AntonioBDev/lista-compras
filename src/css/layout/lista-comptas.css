@@ -1,0 +1,27 @@
+.seccion-compras {
+    h2{
+        font-weight: 800;
+    }
+    h3{
+        font-weight: 600;
+        font-style: italic;
+    }
+}
+
+.lista-compras {
+  h3 {
+    text-align: left;
+  }
+}
+.item-compra {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-card);
+  box-shadow: var(--shadow-soft);
+  border-radius: 2rem;
+  img {
+    width: 10rem;
+  }
+}
