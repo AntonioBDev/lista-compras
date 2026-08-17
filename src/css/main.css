@@ -5,5 +5,7 @@
 @import "./base/utilidades.css";
 @import "./layout/header.css";
 @import "./layout/lista-comptas.css";
+@import "./layout/modal.css";
+@import "./layout/formulario.css";
 
 @import "./base/botones.css";

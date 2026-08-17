@@ -1,9 +1,9 @@
 <?php
 
 declare(strict_types=1);
-require 'include/funciones.php';
-
+include 'include/funciones.php';
 incluirTemplate('header');
+include 'admin/control/crear.php';
 ?>
 <section class="contenedor seccion-compras">
     <h2 class="no-margin">Lista de compras</h2>

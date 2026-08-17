@@ -1,12 +1,14 @@
-<?php 
-    $zonaHoraria = new DateTimeZone('America/Hermosillo');
-    $fecha = new DateTime('now', $zonaHoraria);
-    $formateador = new IntlDateFormatter(
-        'es_ES',
-        IntlDateFormatter::NONE, 
-        IntlDateFormatter::NONE,
-        null, null, "EEEE, d MMMM"
-    );
+<?php
+$zonaHoraria = new DateTimeZone('America/Hermosillo');
+$fecha = new DateTime('now', $zonaHoraria);
+$formateador = new IntlDateFormatter(
+    'es_ES',
+    IntlDateFormatter::NONE,
+    IntlDateFormatter::NONE,
+    null,
+    null,
+    "EEEE, d MMMM"
+);
 ?>
 
 <!DOCTYPE html>
@@ -28,10 +30,10 @@
                     <i class="fa-solid fa-circle-user"></i>
                     <p>Jose</p>
                 </div>
-                <p class="fecha"><?php echo $formateador->format($fecha)?></p>
+                <p class="fecha"><?php echo $formateador->format($fecha) ?></p>
             </section>
             <nav>
-                <a href="#"><i class="fa-solid fa-circle-plus"></i></a>
+                <a href="/admin/control/crear.php" id="btnAbrirModal"><i class="fa-solid fa-circle-plus"></i></a>
                 <a href="#"><i class="fa-solid fa-gear"></i></a>
             </nav>
         </div>

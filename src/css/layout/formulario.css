@@ -1,0 +1,49 @@
+.formulario-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.formulario-modal .campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formulario-modal label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.formulario-modal input[type="text"],
+.formulario-modal select,
+.formulario-modal input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulario-modal input[type="file"] {
+  padding: 5px;
+  background-color: #f9f9f9;
+}
+
+.btn-guardar {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-guardar:hover {
+  background-color: #218838;
+}
